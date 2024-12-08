@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.zerdasoftware.cryptoapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.zerdasoftware.cryptoapp"
@@ -45,4 +45,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("com.github.majorkik:SparkLineLayout:1.0.1")
+
+    implementation("com.github.bumptech.glide:glide:4.12.0")
 }
